@@ -29,9 +29,21 @@ const toggleMobileMenu = () => {
     navbarToggler.setAttribute('aria-expanded', 'false');
   };
 
-  navbarToggler.addEventListener('click', () => {
+  const openMenu = () => {
+    navCollapse.classList.add('show');
+    navbarToggler.setAttribute('aria-expanded', 'true');
+  };
+
+  navbarToggler.addEventListener('click', (event) => {
+    event.preventDefault();
+
     const isExpanded = navbarToggler.getAttribute('aria-expanded') === 'true';
-    navbarToggler.setAttribute('aria-expanded', String(!isExpanded));
+
+    if (isExpanded) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
   });
 
   navCollapse.querySelectorAll('.nav-link').forEach((link) => {
