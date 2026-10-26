@@ -1,0 +1,55 @@
+:root {
+  --primary: #5b6cff;
+  --primary-dark: #2d3bb2;
+  --primary-soft: rgba(91, 108, 255, 0.12);
+  --background: #f5f7ff;
+  --surface: #ffffff;
+  --surface-alt: #eef3ff;
+  --surface-strong: #101827;
+  --text: #111827;
+  --text-muted: #5f6980;
+  --border: rgba(17, 24, 39, 0.09);
+  --success: #1fa979;
+  --warning: #f5a623;
+  --shadow-soft: 0 18px 40px rgba(17, 24, 39, 0.08);
+  --shadow-card: 0 12px 28px rgba(17, 24, 39, 0.08);
+  --radius-lg: 24px;
+  --radius-md: 18px;
+  --radius-sm: 12px;
+  --container-width: 1180px;
+  --font-sans: "Inter", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --transition-base: 180ms ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: var(--font-sans);
+  background: var(--background);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+:focus-visible {
+  outline: 3px solid rgba(91, 108, 255, 0.35);
+  outline-offset: 3px;
+}

@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NEXA AI — Intelligent Workflow Automation</title>
+    <meta
+      name="description"
+      content="Automate repetitive work, connect your tools and build intelligent workflows with NEXA AI."
+    />
+    <meta property="og:title" content="NEXA AI — Intelligent Workflow Automation" />
+    <meta
+      property="og:description"
+      content="Automate repetitive work, connect your tools and build intelligent workflows with NEXA AI."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://example.com/og-image.jpg" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="NEXA AI — Intelligent Workflow Automation" />
+    <meta
+      name="twitter:description"
+      content="Automate repetitive work, connect your tools and build intelligent workflows with NEXA AI."
+    />
+    <link rel="canonical" href="https://example.com" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='18' fill='%230b1020'/%3E%3Cpath d='M19 42V22h7.5l7.6 10.8V22H42v20h-7.9L26.5 31.2V42H19z' fill='%237892ff'/%3E%3C/svg%3E" type="image/svg+xml" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+  </head>
+  <body>
+    <div class="announcement-bar">
+      <div class="container d-flex justify-content-center align-items-center text-center">
+        <span>Introducing NEXA AI 2.0 — Automate more. Achieve more.</span>
+        <a href="#features" class="announcement-link">Learn more →</a>
+      </div>
+    </div>
+
+    <header class="site-header" id="top">
+      <nav class="navbar navbar-expand-lg fixed-top" aria-label="Main navigation">
+        <div class="container">
+          <a class="navbar-brand" href="#top" aria-label="NEXA AI home">
+            <span class="brand-mark">N</span>
+            NEXA AI
+          </a>
+
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#mainNav"
+            aria-controls="mainNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item"><a class="nav-link" href="#product">Product</a></li>
+              <li class="nav-item"><a class="nav-link" href="#solutions">Solutions</a></li>
+              <li class="nav-item"><a class="nav-link" href="#integrations">Integrations</a></li>
+              <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+              <li class="nav-item"><a class="nav-link" href="#resources">Resources</a></li>
+            </ul>
+            <button type="button" class="btn btn-primary navbar-cta" data-bs-toggle="modal" data-bs-target="#signupModal">
+              Start Free
+            </button>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero section-shell" id="solutions">
+        <div class="container">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6 reveal">
+              <div class="eyebrow">Built for modern teams</div>
+              <h1>AI that works for you.</h1>
+              <p class="hero-subtitle">
+                Automate repetitive work, connect your tools, and turn your workflows into intelligent systems — without writing complex code.
+              </p>
+              <div class="hero-actions d-flex flex-wrap align-items-center gap-3">
+                <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#signupModal">
+                  Start Free
+                </button>
+                <a href="#workflow-demo" class="btn btn-secondary btn-lg">See How It Works</a>
+              </div>
+              <p class="helper-copy">No credit card required.</p>
+            </div>
+
+            <div class="col-lg-6 reveal reveal-delay">
+              <div class="dashboard-shell">
+                <div class="dashboard-window">
+                  <aside class="dashboard-sidebar">
+                    <div class="dashboard-brand">NEXA</div>
+                    <nav aria-label="Dashboard navigation">
+                      <ul>
+                        <li class="active">Dashboard</li>
+                        <li>Automations</li>
+                        <li>Workflows</li>
+                        <li>Integrations</li>
+                        <li>Analytics</li>
+                        <li>Team</li>
+                        <li>Settings</li>
+                      </ul>
+                    </nav>
+                  </aside>
+
+                  <div class="dashboard-main">
+                    <div class="dashboard-header">
+                      <div>
+                        <span class="header-label">Overview</span>
+                        <h2>Good morning, Alex</h2>
+                      </div>
+                      <div class="status-pill">Live</div>
+                    </div>
+
+                    <div class="stats-grid" aria-label="Summary metrics">
+                      <div class="stat-card">
+                        <span class="stat-label">Automations</span>
+                        <strong>24 Active</strong>
+                      </div>
+                      <div class="stat-card">
+                        <span class="stat-label">Tasks Automated</span>
+                        <strong>12,480</strong>
+                      </div>
+                      <div class="stat-card">
+                        <span class="stat-label">Time Saved</span>
+                        <strong>184h</strong>
+                      </div>
+                      <div class="stat-card">
+                        <span class="stat-label">Success Rate</span>
+                        <strong>98.7%</strong>
+                      </div>
+                    </div>
+
+                    <div class="chart-panel">
+                      <div class="panel-header">
+                        <span>Workflow performance</span>
+                        <span class="trend-up">+18.4%</span>
+                      </div>
+                      <div class="chart-bars" aria-hidden="true">
+                        <span style="height: 38%"></span>
+                        <span style="height: 52%"></span>
+                        <span style="height: 46%"></span>
+                        <span style="height: 70%"></span>
+                        <span style="height: 62%"></span>
+                        <span style="height: 80%"></span>
+                        <span style="height: 92%"></span>
+                      </div>
+                    </div>
+
+                    <div class="activity-panel">
+                      <div class="activity-item">
+                        <span class="dot success"></span>
+                        <span>Customer support workflow completed</span>
+                      </div>
+                      <div class="activity-item">
+                        <span class="dot info"></span>
+                        <span>Lead qualification automation completed</span>
+                      </div>
+                      <div class="activity-item">
+                        <span class="dot warning"></span>
+                        <span>Weekly report generated</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="social-proof section-shell-sm">
+        <div class="container">
+          <p class="section-kicker text-center reveal">Trusted by teams that move fast.</p>
+          <div class="logo-row reveal" aria-label="Customer logos">
+            <span>NOVA</span>
+            <span>VERTEX</span>
+            <span>LUMEN</span>
+            <span>ORBIT</span>
+            <span>FLOWLAB</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="value-prop section-shell" id="product">
+        <div class="container">
+          <div class="section-heading reveal">
+            <h2>Stop doing repetitive work.</h2>
+            <p>
+              NEXA AI connects your tools, understands your workflows and automates repetitive tasks so your team can focus on what actually matters.
+            </p>
+          </div>
+
+          <div class="row g-4 value-grid">
+            <article class="col-md-4 reveal">
+              <div class="value-card">
+                <span class="card-index">01</span>
+                <h3>Automate</h3>
+                <p>Turn repetitive processes into intelligent automated workflows.</p>
+              </div>
+            </article>
+            <article class="col-md-4 reveal">
+              <div class="value-card">
+                <span class="card-index">02</span>
+                <h3>Connect</h3>
+                <p>Bring your favorite tools together in one intelligent workflow.</p>
+              </div>
+            </article>
+            <article class="col-md-4 reveal">
+              <div class="value-card">
+                <span class="card-index">03</span>
+                <h3>Optimize</h3>
+                <p>Monitor performance and continuously improve your processes.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-showcase section-shell">
+        <div class="container">
+          <div class="section-heading reveal text-center">
+            <h2>Your entire workflow. Smarter.</h2>
+            <p>Build, monitor and optimize AI-powered workflows from one simple interface.</p>
+          </div>
+
+          <div class="showcase-panel reveal">
+            <div class="showcase-header">
+              <div>
+                <span class="mini-label">Workflow Builder</span>
+                <h3>Customer onboarding pipeline</h3>
+              </div>
+              <span class="status-live">ACTIVE</span>
+            </div>
+
+            <div class="flow-diagram" aria-label="Workflow process">
+              <div class="flow-step">
+                <span class="flow-label">Trigger</span>
+                <strong>New customer submitted</strong>
+              </div>
+              <div class="flow-arrow" aria-hidden="true">↓</div>
+              <div class="flow-step highlight">
+                <span class="flow-label">AI Processing</span>
+                <strong>Analyze customer request</strong>
+              </div>
+              <div class="flow-arrow" aria-hidden="true">↓</div>
+              <div class="flow-step">
+                <span class="flow-label">Action</span>
+                <strong>Create CRM record</strong>
+              </div>
+              <div class="flow-arrow" aria-hidden="true">↓</div>
+              <div class="flow-step">
+                <span class="flow-label">Action</span>
+                <strong>Send personalized email</strong>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features section-shell" id="features">
+        <div class="container">
+          <div class="section-heading reveal text-center">
+            <h2>Everything you need to automate smarter.</h2>
+          </div>
+
+          <div class="row g-4 features-grid">
+            <article class="col-md-6 col-xl-4 reveal">
+              <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false"><path d="M4 18.5V5.5h7.3l1.7 2.1H20v10.9H4zm2-2h12v-6.3h-5.5l-1.7-2.1H6v8.4z"/></svg>
+                </div>
+                <h3>AI Workflow Builder</h3>
+                <p>Build intelligent workflows using a simple visual interface.</p>
+              </div>
+            </article>
+            <article class="col-md-6 col-xl-4 reveal">
+              <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false"><path d="M12 2.5a7.5 7.5 0 0 1 7.5 7.5c0 4.9-5.1 11.4-7.1 13.8-2-2.4-7.1-8.9-7.1-13.8A7.5 7.5 0 0 1 12 2.5zm0 3a4.5 4.5 0 1 0 0 9 4.5 4.5 0 0 0 0-9z"/></svg>
+                </div>
+                <h3>Smart Automation</h3>
+                <p>Let AI handle repetitive tasks automatically.</p>
+              </div>
+            </article>
+            <article class="col-md-6 col-xl-4 reveal">
+              <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false"><path d="M4 18h16v2H4v-2zm1-3h2V8H5v7zm4 0h2V4h-2v11zm4 0h2V9h-2v6zm4 0h2V6h-2v9z"/></svg>
+                </div>
+                <h3>Real-time Analytics</h3>
+                <p>Understand exactly how your workflows are performing.</p>
+              </div>
+            </article>
+            <article class="col-md-6 col-xl-4 reveal">
+              <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false"><path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm8 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-8 12a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm8 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM16 9.5a2.5 2.5 0 0 1 0 5H8a2.5 2.5 0 0 1 0-5h8z"/></svg>
+                </div>
+                <h3>Team Collaboration</h3>
+                <p>Build and manage automations together.</p>
+              </div>
+            </article>
+            <article class="col-md-6 col-xl-4 reveal">
+              <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false"><path d="M12 2.5 4.5 5.8v6.9c0 4.7 3.2 8.7 7.5 10.8 4.3-2.1 7.5-6.1 7.5-10.8V5.8L12 2.5zm0 3.2 4 1.7v5.2c0 3.2-2.2 6.2-4 7.2-1.8-1-4-4-4-7.2V7.4l4-1.7zm-1.5 3.2h3v6h-3v-6zm1.5-2.2a1.1 1.1 0 1 1 0-2.2 1.1 1.1 0 0 1 0 2.2z"/></svg>
+                </div>
+                <h3>Secure by Design</h3>
+                <p>Your data stays protected with enterprise-grade security.</p>
+              </div>
+            </article>
+            <article class="col-md-6 col-xl-4 reveal">
+              <div class="feature-card">
+                <div class="feature-icon" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" focusable="false"><path d="M5 4.5h14a2 2 0 0 1 2 2V17a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V6.5a2 2 0 0 1 2-2zm2 4h10v2H7v-2zm0 4h7v2H7v-2z"/></svg>
+                </div>
+                <h3>No-Code Experience</h3>
+                <p>Create powerful workflows without complex programming.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-it-works section-shell">
+        <div class="container">
+          <div class="section-heading reveal text-center">
+            <h2>From idea to automation in minutes.</h2>
+          </div>
+
+          <div class="steps-row reveal">
+            <div class="step-card">
+              <span class="step-number">01</span>
+              <h3>Connect</h3>
+              <p>Connect the tools your team already uses.</p>
+            </div>
+            <div class="step-line" aria-hidden="true"></div>
+            <div class="step-card">
+              <span class="step-number">02</span>
+              <h3>Build</h3>
+              <p>Create your workflow using our visual builder.</p>
+            </div>
+            <div class="step-line" aria-hidden="true"></div>
+            <div class="step-card">
+              <span class="step-number">03</span>
+              <h3>Automate</h3>
+              <p>Let NEXA AI execute the work automatically.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="workflow-demo section-shell" id="workflow-demo">
+        <div class="container">
+          <div class="section-heading reveal text-center">
+            <h2>See NEXA AI in action.</h2>
+          </div>
+
+          <div class="demo-card reveal">
+            <div class="demo-header">
+              <div class="demo-status-group">
+                <span class="mini-label">Workflow</span>
+                <strong id="workflowTitle">Support routing</strong>
+              </div>
+              <span id="workflowStatus" class="demo-status idle">Idle</span>
+            </div>
+
+            <div class="workflow-steps" aria-live="polite">
+              <div class="workflow-step" data-step="1">
+                <span class="step-tag">Trigger</span>
+                <p>New support ticket</p>
+              </div>
+              <div class="workflow-step" data-step="2">
+                <span class="step-tag">AI</span>
+                <p>Analyze customer intent</p>
+              </div>
+              <div class="workflow-step" data-step="3">
+                <span class="step-tag">Decision</span>
+                <p>Is this urgent?</p>
+              </div>
+              <div class="workflow-step" data-step="4">
+                <span class="step-tag">Action</span>
+                <p>Notify support manager</p>
+              </div>
+              <div class="workflow-step" data-step="5">
+                <span class="step-tag">Action</span>
+                <p>Generate AI response</p>
+              </div>
+            </div>
+
+            <div class="demo-actions">
+              <button type="button" id="runWorkflowBtn" class="btn btn-primary">Run Workflow</button>
+              <button type="button" id="resetWorkflowBtn" class="btn btn-secondary">Reset</button>
+            </div>
+
+            <p id="workflowMessage" class="workflow-message" aria-live="polite">Demo workflow is ready to run.</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="integrations section-shell" id="integrations">
+        <div class="container">
+          <div class="section-heading reveal text-center">
+            <h2>Works with the tools you already use.</h2>
+          </div>
+
+          <div class="row g-4 integrations-grid">
+            <div class="col-6 col-md-4 col-lg-3 reveal"><div class="integration-card">Slack</div></div>
+            <div class="col-6 col-md-4 col-lg-3 reveal"><div class="integration-card">Gmail</div></div>
+            <div class="col-6 col-md-4 col-lg-3 reveal"><div class="integration-card">Google Sheets</div></div>
+            <div class="col-6 col-md-4 col-lg-3 reveal"><div class="integration-card">Notion</div></div>
+            <div class="col-6 col-md-4 col-lg-3 reveal"><div class="integration-card">HubSpot</div></div>
+            <div class="col-6 col-md-4 col-lg-3 reveal"><div class="integration-card">Salesforce</div></div>
+            <div class="col-6 col-md-4 col-lg-3 reveal"><div class="integration-card">Microsoft Teams</div></div>
+            <div class="col-6 col-md-4 col-lg-3 reveal"><div class="integration-card">Zapier</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="use-cases section-shell">
+        <div class="container">
+          <div class="section-heading reveal text-center">
+            <h2>Built for modern teams.</h2>
+          </div>
+
+          <div class="row g-4 use-case-grid">
+            <article class="col-md-6 col-xl-3 reveal">
+              <div class="use-case-card">
+                <span class="use-case-tag">Sales</span>
+                <p>Automatically qualify leads and update your CRM.</p>
+              </div>
+            </article>
+            <article class="col-md-6 col-xl-3 reveal">
+              <div class="use-case-card">
+                <span class="use-case-tag">Marketing</span>
+                <p>Automate campaign reporting and content workflows.</p>
+              </div>
+            </article>
+            <article class="col-md-6 col-xl-3 reveal">
+              <div class="use-case-card">
+                <span class="use-case-tag">Customer Support</span>
+                <p>Classify requests and route them automatically.</p>
+              </div>
+            </article>
+            <article class="col-md-6 col-xl-3 reveal">
+              <div class="use-case-card">
+                <span class="use-case-tag">Operations</span>
+                <p>Automate reports, approvals and repetitive processes.</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials section-shell">
+        <div class="container">
+          <div class="section-heading reveal text-center">
+            <h2>Teams see the difference.</h2>
+          </div>
+
+          <div class="row g-4 testimonial-grid">
+            <article class="col-lg-4 reveal">
+              <div class="testimonial-card">
+                <p>"Before NEXA, our team spent hours every week moving data between tools. Now most of it happens automatically."</p>
+                <div class="testimonial-author">
+                  <strong>Sarah Mitchell</strong>
+                  <span>COO, Vertex Labs</span>
+                </div>
+              </div>
+            </article>
+            <article class="col-lg-4 reveal">
+              <div class="testimonial-card">
+                <p>"NEXA gave our support team a calmer workflow and faster response times without adding complexity to our process."</p>
+                <div class="testimonial-author">
+                  <strong>Daniel Brooks</strong>
+                  <span>VP Operations, Lumen Studio</span>
+                </div>
+              </div>
+            </article>
+            <article class="col-lg-4 reveal">
+              <div class="testimonial-card">
+                <p>"The platform feels premium, easy to manage, and it saved our team hours of repetitive work in the first month."</p>
+                <div class="testimonial-author">
+                  <strong>Amelia Chen</strong>
+                  <span>Head of Growth, Orbit Works</span>
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="pricing section-shell" id="pricing">
+        <div class="container">
+          <div class="pricing-head reveal">
+            <div class="section-heading">
+              <h2>Simple pricing for growing teams.</h2>
+            </div>
+            <div class="billing-toggle" aria-label="Billing period toggle" role="tablist">
+              <button type="button" class="billing-option active" data-billing="monthly" aria-pressed="true">Monthly</button>
+              <button type="button" class="billing-option" data-billing="yearly" aria-pressed="false">Yearly</button>
+            </div>
+          </div>
+
+          <div class="row g-4 pricing-grid">
+            <article class="col-lg-4 reveal">
+              <div class="pricing-card">
+                <div class="plan-header">
+                  <h3>Starter</h3>
+                </div>
+                <div class="price-row">
+                  <span class="currency">$</span>
+                  <span class="price" data-monthly="19" data-yearly="15">19</span>
+                  <span class="period">/month</span>
+                </div>
+                <p class="plan-copy">For small teams.</p>
+                <ul class="feature-list">
+                  <li>5 workflows</li>
+                  <li>1,000 tasks/month</li>
+                  <li>Basic integrations</li>
+                  <li>Email support</li>
+                </ul>
+                <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal" data-bs-target="#signupModal">Start Free</button>
+              </div>
+            </article>
+
+            <article class="col-lg-4 reveal">
+              <div class="pricing-card featured-plan">
+                <span class="plan-badge">Most Popular</span>
+                <div class="plan-header">
+                  <h3>Growth</h3>
+                </div>
+                <div class="price-row">
+                  <span class="currency">$</span>
+                  <span class="price" data-monthly="49" data-yearly="39">49</span>
+                  <span class="period">/month</span>
+                </div>
+                <p class="plan-copy">For teams scaling fast.</p>
+                <ul class="feature-list">
+                  <li>Unlimited workflows</li>
+                  <li>10,000 tasks/month</li>
+                  <li>Advanced AI automation</li>
+                  <li>Analytics</li>
+                  <li>Team collaboration</li>
+                  <li>Priority support</li>
+                </ul>
+                <button type="button" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#signupModal">Start Free</button>
+              </div>
+            </article>
+
+            <article class="col-lg-4 reveal">
+              <div class="pricing-card">
+                <div class="plan-header">
+                  <h3>Scale</h3>
+                </div>
+                <div class="price-row">
+                  <span class="currency">$</span>
+                  <span class="price" data-monthly="149" data-yearly="119">149</span>
+                  <span class="period">/month</span>
+                </div>
+                <p class="plan-copy">For larger organizations.</p>
+                <ul class="feature-list">
+                  <li>Unlimited workflows</li>
+                  <li>50,000 tasks/month</li>
+                  <li>Advanced analytics</li>
+                  <li>Custom integrations</li>
+                  <li>Priority support</li>
+                  <li>Dedicated account manager</li>
+                </ul>
+                <button type="button" class="btn btn-secondary w-100" data-bs-toggle="modal" data-bs-target="#signupModal">Contact Sales</button>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq section-shell" id="resources">
+        <div class="container faq-wrap reveal">
+          <div class="section-heading text-center">
+            <h2>Frequently asked questions</h2>
+          </div>
+
+          <div class="accordion" id="faqAccordion">
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faq1" aria-expanded="true">
+                  What is NEXA AI?
+                </button>
+              </h3>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  NEXA AI is a workflow automation platform that helps teams connect tools, streamline repetitive tasks and build AI-powered processes without custom code.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2" aria-expanded="false">
+                  Do I need coding experience?
+                </button>
+              </h3>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  No. NEXA AI is designed for teams that want an intuitive no-code interface to automate workflows and connect systems quickly.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3" aria-expanded="false">
+                  Can I cancel anytime?
+                </button>
+              </h3>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes. You can cancel your subscription at any time and keep access through the end of your current billing period.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4" aria-expanded="false">
+                  Is there a free trial?
+                </button>
+              </h3>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes. Every new account includes a free trial so you can explore workflows, automation templates and integrations before committing.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5" aria-expanded="false">
+                  Which tools can I connect?
+                </button>
+              </h3>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  NEXA AI supports popular platforms including Slack, Gmail, Notion, Salesforce, HubSpot, Google Sheets and more via native integrations and automation workflows.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item">
+              <h3 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6" aria-expanded="false">
+                  Is my data secure?
+                </button>
+              </h3>
+              <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                  Yes. NEXA AI is built with secure infrastructure, access controls and encryption practices designed for business use.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="final-cta section-shell">
+        <div class="container">
+          <div class="cta-card reveal">
+            <div class="cta-content">
+              <h2>Ready to work smarter?</h2>
+              <p>Start automating your workflows today.</p>
+            </div>
+            <div class="cta-actions">
+              <button type="button" class="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#signupModal">Start Free</button>
+              <span class="helper-copy-inline">No credit card required.</span>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-3">
+            <a href="#top" class="footer-brand">NEXA AI</a>
+          </div>
+          <div class="col-md-2">
+            <h3>Product</h3>
+            <ul>
+              <li><a href="#features">Features</a></li>
+              <li><a href="#pricing">Pricing</a></li>
+              <li><a href="#integrations">Integrations</a></li>
+              <li><a href="#product">Security</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h3>Solutions</h3>
+            <ul>
+              <li><a href="#features">Automation</a></li>
+              <li><a href="#workflow-demo">AI Workflows</a></li>
+              <li><a href="#product">Analytics</a></li>
+              <li><a href="#solutions">Operations</a></li>
+            </ul>
+          </div>
+          <div class="col-md-2">
+            <h3>Resources</h3>
+            <ul>
+              <li><a href="#resources">Documentation</a></li>
+              <li><a href="#resources">Blog</a></li>
+              <li><a href="#faq">FAQ</a></li>
+              <li><a href="#resources">Support</a></li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h3>Company</h3>
+            <ul>
+              <li><a href="#top">About</a></li>
+              <li><a href="#top">Contact</a></li>
+              <li><a href="#resources">Careers</a></li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 NEXA AI. All rights reserved.</p>
+          <p class="disclaimer">NEXA AI is a fictional product created as a portfolio project.</p>
+        </div>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="signupModal" tabindex="-1" aria-labelledby="signupModalLabel" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h2 class="modal-title" id="signupModalLabel">Start your NEXA AI trial</h2>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <form id="signupForm" novalidate>
+              <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="text" class="form-control" id="fullName" name="fullName" required />
+              </div>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required />
+              </div>
+              <div class="mb-3">
+                <label for="company" class="form-label">Company</label>
+                <input type="text" class="form-control" id="company" name="company" required />
+              </div>
+              <div class="d-grid">
+                <button type="submit" class="btn btn-primary">Create Account</button>
+              </div>
+            </form>
+            <div id="signupSuccess" class="signup-success" aria-live="polite" hidden>
+              You're all set! This is a portfolio demonstration — no account was actually created.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-Yg5mQKQ1f6uM+KxjR3L4jH4M8g8H7cTnoxKQfQJm80fZijP4f0m8XG36I7mP0bK8Q" crossorigin="anonymous"></script>
+    <script src="js/main.js"></script>
+    <script src="js/pricing.js"></script>
+    <script src="js/workflow.js"></script>
+  </body>
+</html>
